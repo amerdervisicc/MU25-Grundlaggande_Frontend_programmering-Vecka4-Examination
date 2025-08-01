@@ -16,7 +16,7 @@ odlare. Därför efterfrågar de en lösning på detta!
 Följande design har tagits fram och det är ditt jobb att bygga denna
 hemsida: [Figma ritning](https://www.figma.com/file/Hbrk29Q2rVzXiXcFWdTXDA/planned-planthood?type=design&node-id=0%3A1&mode=design&t=YeEpGauWV2WBtUKl-1)
 
-Alla svg-ikoner finns i det medföljande assets-foldern.
+I mappen assets hittar ni de svg-ikoner som behövs för att återskapa Figma-skissen, och dessa får ni använda hur mycket ni vill. Bilderna däremot är "snodda" från Unsplash, vilket innebär att man i ett riktigt live-projekt som publiceras publikt måste credda fotografen. Detta är ingenting ni behöver bry er om i denna uppgift eftersom att lägga upp sin kod på Github inte riktigt räknas, men det kan vara bra att ha det i åtanke framöver. Länkar till bilderna hittar ni i kommentarerna till varje bild i Figma-skissen.
 
 <figure><img src='screenshot.png'></figure>
 
@@ -27,8 +27,12 @@ Alla svg-ikoner finns i det medföljande assets-foldern.
 * Skapat både startsidan (index.html) och sida 2 (Mina sidor).
 * Ha gjort hemsidan responsiv (d.v.s den ska funka både i desktop och mobilt läge).
 * Använda er av semantisk HTML.
+* Inte ha använt er av mer än 2 div:ar per HTML-dokument
+* Använda enbart en CSS-fil
 * Använda CSS Grid och flexbox.
 * Använda er av dom bifogade bilderna.
+* Implementera sidan enligt design (samma fonter, font-storlekar, färger mm.)
+
 
 **För att få Gulstjärna ska ni:**
 
