@@ -20,23 +20,53 @@ I mappen assets hittar ni de svg-ikoner som behövs för att återskapa Figma-sk
 
 <figure><img src='screenshot.png'></figure>
 
+## Inlämning
+
+Lämna in:
+- Länk till ert GitHub-repo i Azomo, (ALLA individer i gruppen skall göra inlämning i Azomo).
+- En README.md som innehåller:
+
+## Projektbeskrivning
+- Kort beskrivning av vad er webbplats handlar om.
+
+## Tekniker som använts
+- HTML: Semantik, struktur
+- CSS: Layout, responsivitet
+
+## Utmaningar & lösningar
+- Reflektera över svårigheter och hur ni löste dem.
+
+## 🎤 Presentation
+
+Ni ska under **10-15 minuter**:
+
+- Visa upp er webbplats
+- Visa koden
+- Förklara era tekniska val (kod)
+- Visar hur ni använt webbläsarverktygen.
+- Visar att ni har uppfyllt examinations målen.
+- Besvara frågor från läraren
+
 ### Betygskriterier
 
 **För att få godkänt ska ni:**
 
 * Skapat både startsidan (index.html) och sida 2 (Mina sidor).
-* Ha gjort hemsidan responsiv (d.v.s den ska funka både i desktop och mobilt läge).
+* Ha gjort hemsidan responsiv med minst 2 brytpunkter (d.v.s den ska funka minst i både desktop och mobilt läge).
 * Använda er av semantisk HTML.
 * Inte ha använt er av mer än 2 div:ar per HTML-dokument
 * Använda enbart en CSS-fil
-* Använda CSS Grid och flexbox.
+* Projektet ska innehålla minst ett layoutområde som använder CSS Grid och minst ett layoutområde som använder Flexbox. (Exempel: huvudlayout med Grid, kortlistor eller navigation med Flexbox.) Dessa ska vara implementerade på olika delar av sidan.
 * Använda er av dom bifogade bilderna.
+* Tillgänglighet – alt-texter - Alla bilder ska ha beskrivande alt-texter.
 * Implementera sidan enligt design (samma fonter, font-storlekar, färger mm.)
 
 
 **För att få Gulstjärna ska ni:**
 
 * Allt i godkänt
+* Använd clamp() för typografi.
 * Använda dig av BEM som namnstandard. Detta ska användas konsekvent över hela projektet, d.v.s. det är inte godkänt att
   enbart ha det på några få element för att nå Väl Godkänt.
+  
 
