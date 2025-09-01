@@ -67,6 +67,6 @@ Ni ska under **10-15 minuter**:
 * Allt i godkänt
 * Använd clamp() för typografi.
 * Använda dig av BEM som namnstandard. Detta ska användas konsekvent över hela projektet, d.v.s. det är inte godkänt att
-  enbart ha det på några få element för att nå Väl Godkänt.
+  enbart ha det på några få element för att nå Guldstjärna.
   
 
