@@ -1,12 +1,132 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sv">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Planned Planthood</title>
+  <title>Planned Planthood - Planera dina planteringar</title>
   <link rel="stylesheet" href="index.css">
 </head>
 <body>
-  
+  <header class="header">
+    <nav class="nav">
+      <div class="nav__logo">
+        <img src="assets/icons/Logo.svg" alt="Planned Planthood logotyp" class="nav__logo-img">
+        <h1 class="nav__title">Planned Planthood</h1>
+      </div>
+      <ul class="nav__menu">
+        <li class="nav__item">
+          <a href="index.html" class="nav__link nav__link--active">Hem</a>
+        </li>
+        <li class="nav__item">
+          <a href="mina-sidor.html" class="nav__link">Mina sidor</a>
+        </li>
+        <li class="nav__item">
+          <a href="#kontakt" class="nav__link">Kontakt</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="main">
+    <section class="hero">
+      <div class="hero__content">
+        <h2 class="hero__title">Planera dina planteringar</h2>
+        <p class="hero__text">Nyköpt hus med trädgård, spännande kolonilott eller ett öppet fält som behöver lite kärlek? Det är dags att börja planera sina planteringar!</p>
+        <button class="hero__button">Kom igång</button>
+      </div>
+      <div class="hero__image">
+        <img src="assets/images/hand.jpeg" alt="Hand som håller i jord och växter" class="hero__img">
+      </div>
+    </section>
+
+    <section class="features">
+      <h3 class="features__title">Varför välja Planned Planthood?</h3>
+      <div class="features__grid">
+        <article class="feature-card">
+          <div class="feature-card__icon">
+            <img src="assets/icons/plant.svg" alt="Växt ikon" class="feature-card__img">
+          </div>
+          <h4 class="feature-card__title">Organiserad odling</h4>
+          <p class="feature-card__text">Få bättre koll på vilken planta som ska sås vilken dag på vårkanten.</p>
+        </article>
+        
+        <article class="feature-card">
+          <div class="feature-card__icon">
+            <img src="assets/icons/seedling.svg" alt="Grodling ikon" class="feature-card__img">
+          </div>
+          <h4 class="feature-card__title">Perfekt för kollektiv</h4>
+          <p class="feature-card__text">Undvik oordning bland odlingar och odlare i kolonilotten.</p>
+        </article>
+        
+        <article class="feature-card">
+          <div class="feature-card__icon">
+            <img src="assets/icons/Vectorseedpackage.svg" alt="Fröpaket ikon" class="feature-card__img">
+          </div>
+          <h4 class="feature-card__title">Enkel planering</h4>
+          <p class="feature-card__text">En enklare lösning för att planera dina planteringar effektivt.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="gallery">
+      <h3 class="gallery__title">Inspiration från våra användare</h3>
+      <div class="gallery__grid">
+        <div class="gallery__item">
+          <img src="assets/images/ärta.avif" alt="Färska ärtor på växt" class="gallery__img">
+        </div>
+        <div class="gallery__item">
+          <img src="assets/images/gurka.avif" alt="Mogen gurka på växt" class="gallery__img">
+        </div>
+        <div class="gallery__item">
+          <img src="assets/images/tomat.avif" alt="Röda tomater på växt" class="gallery__img">
+        </div>
+        <div class="gallery__item">
+          <img src="assets/images/tomater.avif" alt="Många tomater i korg" class="gallery__img">
+        </div>
+        <div class="gallery__item">
+          <img src="assets/images/massagrönsaker.avif" alt="Olika grönsaker i korg" class="gallery__img">
+        </div>
+        <div class="gallery__item">
+          <img src="assets/images/lilagrönsak.avif" alt="Lila grönsaker" class="gallery__img">
+        </div>
+      </div>
+    </section>
+
+    <section class="cta">
+      <div class="cta__content">
+        <h3 class="cta__title">Redo att börja planera?</h3>
+        <p class="cta__text">Skapa din första plantering idag och få bättre koll på din kolonilott.</p>
+        <button class="cta__button">Starta planering</button>
+      </div>
+      <div class="cta__image">
+        <img src="assets/images/plockar.avif" alt="Person som plockar grönsaker" class="cta__img">
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" id="kontakt">
+    <div class="footer__content">
+      <div class="footer__section">
+        <h4 class="footer__title">Kontakt</h4>
+        <div class="footer__contact">
+          <div class="footer__contact-item">
+            <img src="assets/icons/telephone.svg" alt="Telefon ikon" class="footer__icon">
+            <span class="footer__text">+46 123 456 789</span>
+          </div>
+          <div class="footer__contact-item">
+            <img src="assets/icons/envelope.svg" alt="E-post ikon" class="footer__icon">
+            <span class="footer__text">info@plannedplanthood.se</span>
+          </div>
+        </div>
+      </div>
+      <div class="footer__section">
+        <h4 class="footer__title">Följ oss</h4>
+        <p class="footer__text">Få tips och inspiration för din trädgård</p>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p class="footer__copyright">&copy; 2024 Planned Planthood. Alla rättigheter förbehållna.</p>
+    </div>
+  </footer>
 </body>
 </html>
